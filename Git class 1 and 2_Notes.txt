@@ -1,0 +1,85 @@
+Git class 1
+
+GIT - is a version control tool.
+
+UNIX Commands
+
+pwd - print working directory/folder
+
+cd - change directory/folder 
+	go forward --> cd name of the folder
+	go back --> cd ..
+
+ls - list 
+		list all folder and files from that directory/folder
+
+cd ~ anywhere you are will take you home
+	home directory is a folder location where you will be as soon as you login
+
+mkdir name- make directory/folder
+	creates a folder with specified name
+
+rm -rf name --> removes specified folder or file
+			PLEASE BE CAREFUL!!!!
+
+navigate to home directory--> go to Desktop --> create a folder --> go inside that folder --> create another folder 
+
+GIT class 2
+
+pwd
+cd ..
+ls
+ls -la
+cd ~
+mkdir
+rm -rf
+
+What is GIT - version control tool/system
+Why do we need it - tracks our code & allows to work together
+
+How to move code to the github
+(git workflow)
+
+1. Identify files/code inside which folder you need
+2. initialize a git repository which will be empty
+		(happens only once)
+	git init
+3. add files to the stage 
+	git add . (add everything)
+
+4. commit files with the message to local repository
+
+	git commit -m "";
+
+5. git status check difference/status of files between local repo and working directory
+
+6. Once changes are commited to the local repo then we can push them to the remote (GitHub)
+
+7. If it is first time we need to create a connection 
+	git remote add origin URL to your repo
+	(we do it only once)
+
+8. Then we need to make sure we point to the master/main branch
+
+	git branch -M man
+
+9. now we are ready to push the code
+	git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
